@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -6,4 +11,19 @@ h1 {
     padding: 6px;
     color: antiquewhite;
     border-radius: 6px;
+    margin: 40px;
+}
+.container {
+    height: 400px;
+    width: 400px;
+    border: 1px solid palevioletred;
+    margin: 40px;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    color: antiquewhite;
+}
+#box-1 {
+    background-color: brown;
 }
